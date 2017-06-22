@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB8C43091EC40292004A0E89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C43081EC40292004A0E89 /* main.m */; };
+		FB8C43141EC40292004A0E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8C43131EC40292004A0E89 /* Assets.xcassets */; };
+		FB8C43171EC40292004A0E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8C43151EC40292004A0E89 /* LaunchScreen.storyboard */; };
+		FB8C43221EC40292004A0E89 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C43211EC40292004A0E89 /* ___Tests.m */; };
+		FB8C432D1EC40292004A0E89 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C432C1EC40292004A0E89 /* ___UITests.m */; };
+		FB8C433D1EC403DD004A0E89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C433C1EC403DD004A0E89 /* AppDelegate.m */; };
+		FB8C435C1EC409A9004A0E89 /* YPTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C435B1EC409A9004A0E89 /* YPTNavigationController.m */; };
+		FB8C435F1EC4126B004A0E89 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C435E1EC4126B004A0E89 /* UIColor+Addition.m */; };
+		FB8C43621EC41385004A0E89 /* YPTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C43611EC41385004A0E89 /* YPTTabBarController.m */; };
+		FB8C43651EC4148A004A0E89 /* YPTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C43641EC4148A004A0E89 /* YPTHomeViewController.m */; };
+		FB8C43681EC414A8004A0E89 /* YPTClassificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C43671EC414A8004A0E89 /* YPTClassificationViewController.m */; };
+		FB8C436B1EC414BF004A0E89 /* YPTNearbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C436A1EC414BF004A0E89 /* YPTNearbyViewController.m */; };
+		FB8C436E1EC414CD004A0E89 /* YPTMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8C436D1EC414CD004A0E89 /* YPTMineViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB8C431E1EC40292004A0E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8C42FC1EC40292004A0E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8C43031EC40292004A0E89;
+			remoteInfo = "药品通";
+		};
+		FB8C43291EC40292004A0E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8C42FC1EC40292004A0E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8C43031EC40292004A0E89;
+			remoteInfo = "药品通";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB8C43041EC40292004A0E89 /* 药品通.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "药品通.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8C43081EC40292004A0E89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB8C43131EC40292004A0E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB8C43161EC40292004A0E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB8C43181EC40292004A0E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8C431D1EC40292004A0E89 /* 药品通Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "药品通Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8C43211EC40292004A0E89 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		FB8C43231EC40292004A0E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8C43281EC40292004A0E89 /* 药品通UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "药品通UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8C432C1EC40292004A0E89 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
+		FB8C432E1EC40292004A0E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8C433B1EC403DD004A0E89 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB8C433C1EC403DD004A0E89 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB8C435A1EC409A9004A0E89 /* YPTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPTNavigationController.h; sourceTree = "<group>"; };
+		FB8C435B1EC409A9004A0E89 /* YPTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPTNavigationController.m; sourceTree = "<group>"; };
+		FB8C435D1EC4126B004A0E89 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		FB8C435E1EC4126B004A0E89 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		FB8C43601EC41385004A0E89 /* YPTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPTTabBarController.h; sourceTree = "<group>"; };
+		FB8C43611EC41385004A0E89 /* YPTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPTTabBarController.m; sourceTree = "<group>"; };
+		FB8C43631EC4148A004A0E89 /* YPTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPTHomeViewController.h; sourceTree = "<group>"; };
+		FB8C43641EC4148A004A0E89 /* YPTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPTHomeViewController.m; sourceTree = "<group>"; };
+		FB8C43661EC414A8004A0E89 /* YPTClassificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPTClassificationViewController.h; sourceTree = "<group>"; };
+		FB8C43671EC414A8004A0E89 /* YPTClassificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPTClassificationViewController.m; sourceTree = "<group>"; };
+		FB8C43691EC414BF004A0E89 /* YPTNearbyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPTNearbyViewController.h; sourceTree = "<group>"; };
+		FB8C436A1EC414BF004A0E89 /* YPTNearbyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPTNearbyViewController.m; sourceTree = "<group>"; };
+		FB8C436C1EC414CD004A0E89 /* YPTMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPTMineViewController.h; sourceTree = "<group>"; };
+		FB8C436D1EC414CD004A0E89 /* YPTMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPTMineViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8C43011EC40292004A0E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8C431A1EC40292004A0E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8C43251EC40292004A0E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB8C42FB1EC40292004A0E89 = {
+			isa = PBXGroup;
+			children = (
+				FB8C43061EC40292004A0E89 /* 药品通 */,
+				FB8C43201EC40292004A0E89 /* 药品通Tests */,
+				FB8C432B1EC40292004A0E89 /* 药品通UITests */,
+				FB8C43051EC40292004A0E89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8C43051EC40292004A0E89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C43041EC40292004A0E89 /* 药品通.app */,
+				FB8C431D1EC40292004A0E89 /* 药品通Tests.xctest */,
+				FB8C43281EC40292004A0E89 /* 药品通UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8C43061EC40292004A0E89 /* 药品通 */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C433E1EC40449004A0E89 /* Library */,
+				FB8C433F1EC40468004A0E89 /* Common */,
+				FB8C433A1EC403DD004A0E89 /* Other */,
+				FB8C43401EC40475004A0E89 /* Classes */,
+				FB8C43071EC40292004A0E89 /* Supporting Files */,
+			);
+			path = "药品通";
+			sourceTree = "<group>";
+		};
+		FB8C43071EC40292004A0E89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C43151EC40292004A0E89 /* LaunchScreen.storyboard */,
+				FB8C43181EC40292004A0E89 /* Info.plist */,
+				FB8C43131EC40292004A0E89 /* Assets.xcassets */,
+				FB8C43081EC40292004A0E89 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB8C43201EC40292004A0E89 /* 药品通Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C43211EC40292004A0E89 /* ___Tests.m */,
+				FB8C43231EC40292004A0E89 /* Info.plist */,
+			);
+			path = "药品通Tests";
+			sourceTree = "<group>";
+		};
+		FB8C432B1EC40292004A0E89 /* 药品通UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C432C1EC40292004A0E89 /* ___UITests.m */,
+				FB8C432E1EC40292004A0E89 /* Info.plist */,
+			);
+			path = "药品通UITests";
+			sourceTree = "<group>";
+		};
+		FB8C433A1EC403DD004A0E89 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C433B1EC403DD004A0E89 /* AppDelegate.h */,
+				FB8C433C1EC403DD004A0E89 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FB8C433E1EC40449004A0E89 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		FB8C433F1EC40468004A0E89 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C435D1EC4126B004A0E89 /* UIColor+Addition.h */,
+				FB8C435E1EC4126B004A0E89 /* UIColor+Addition.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FB8C43401EC40475004A0E89 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C43431EC4055B004A0E89 /* Main */,
+				FB8C43421EC4055B004A0E89 /* Home */,
+				FB8C43411EC4055B004A0E89 /* Classification */,
+				FB8C43451EC4055B004A0E89 /* Nearby */,
+				FB8C43441EC4055B004A0E89 /* Mine */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FB8C43411EC4055B004A0E89 /* Classification */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C434E1EC40601004A0E89 /* Controller */,
+				FB8C434F1EC40601004A0E89 /* Model */,
+				FB8C43501EC40601004A0E89 /* Other */,
+				FB8C43511EC40601004A0E89 /* View */,
+			);
+			path = Classification;
+			sourceTree = "<group>";
+		};
+		FB8C43421EC4055B004A0E89 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C434A1EC405E6004A0E89 /* Controller */,
+				FB8C434B1EC405E6004A0E89 /* Model */,
+				FB8C434C1EC405E6004A0E89 /* Other */,
+				FB8C434D1EC405E6004A0E89 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FB8C43431EC4055B004A0E89 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C43461EC405D7004A0E89 /* Controller */,
+				FB8C43471EC405D7004A0E89 /* Model */,
+				FB8C43481EC405D7004A0E89 /* Other */,
+				FB8C43491EC405D7004A0E89 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FB8C43441EC4055B004A0E89 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C43561EC4060F004A0E89 /* Controller */,
+				FB8C43571EC4060F004A0E89 /* Model */,
+				FB8C43581EC4060F004A0E89 /* Other */,
+				FB8C43591EC4060F004A0E89 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		FB8C43451EC4055B004A0E89 /* Nearby */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C43521EC40609004A0E89 /* Controller */,
+				FB8C43531EC40609004A0E89 /* Model */,
+				FB8C43541EC40609004A0E89 /* Other */,
+				FB8C43551EC40609004A0E89 /* View */,
+			);
+			path = Nearby;
+			sourceTree = "<group>";
+		};
+		FB8C43461EC405D7004A0E89 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C435A1EC409A9004A0E89 /* YPTNavigationController.h */,
+				FB8C435B1EC409A9004A0E89 /* YPTNavigationController.m */,
+				FB8C43601EC41385004A0E89 /* YPTTabBarController.h */,
+				FB8C43611EC41385004A0E89 /* YPTTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB8C43471EC405D7004A0E89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB8C43481EC405D7004A0E89 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FB8C43491EC405D7004A0E89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB8C434A1EC405E6004A0E89 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C43631EC4148A004A0E89 /* YPTHomeViewController.h */,
+				FB8C43641EC4148A004A0E89 /* YPTHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB8C434B1EC405E6004A0E89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB8C434C1EC405E6004A0E89 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FB8C434D1EC405E6004A0E89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB8C434E1EC40601004A0E89 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C43661EC414A8004A0E89 /* YPTClassificationViewController.h */,
+				FB8C43671EC414A8004A0E89 /* YPTClassificationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB8C434F1EC40601004A0E89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB8C43501EC40601004A0E89 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FB8C43511EC40601004A0E89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB8C43521EC40609004A0E89 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C43691EC414BF004A0E89 /* YPTNearbyViewController.h */,
+				FB8C436A1EC414BF004A0E89 /* YPTNearbyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB8C43531EC40609004A0E89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB8C43541EC40609004A0E89 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FB8C43551EC40609004A0E89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB8C43561EC4060F004A0E89 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB8C436C1EC414CD004A0E89 /* YPTMineViewController.h */,
+				FB8C436D1EC414CD004A0E89 /* YPTMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB8C43571EC4060F004A0E89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB8C43581EC4060F004A0E89 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FB8C43591EC4060F004A0E89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8C43031EC40292004A0E89 /* 药品通 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8C43311EC40292004A0E89 /* Build configuration list for PBXNativeTarget "药品通" */;
+			buildPhases = (
+				FB8C43001EC40292004A0E89 /* Sources */,
+				FB8C43011EC40292004A0E89 /* Frameworks */,
+				FB8C43021EC40292004A0E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "药品通";
+			productName = "药品通";
+			productReference = FB8C43041EC40292004A0E89 /* 药品通.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB8C431C1EC40292004A0E89 /* 药品通Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8C43341EC40292004A0E89 /* Build configuration list for PBXNativeTarget "药品通Tests" */;
+			buildPhases = (
+				FB8C43191EC40292004A0E89 /* Sources */,
+				FB8C431A1EC40292004A0E89 /* Frameworks */,
+				FB8C431B1EC40292004A0E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8C431F1EC40292004A0E89 /* PBXTargetDependency */,
+			);
+			name = "药品通Tests";
+			productName = "药品通Tests";
+			productReference = FB8C431D1EC40292004A0E89 /* 药品通Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB8C43271EC40292004A0E89 /* 药品通UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8C43371EC40292004A0E89 /* Build configuration list for PBXNativeTarget "药品通UITests" */;
+			buildPhases = (
+				FB8C43241EC40292004A0E89 /* Sources */,
+				FB8C43251EC40292004A0E89 /* Frameworks */,
+				FB8C43261EC40292004A0E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8C432A1EC40292004A0E89 /* PBXTargetDependency */,
+			);
+			name = "药品通UITests";
+			productName = "药品通UITests";
+			productReference = FB8C43281EC40292004A0E89 /* 药品通UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB8C42FC1EC40292004A0E89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YPT;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "黄启明";
+				TargetAttributes = {
+					FB8C43031EC40292004A0E89 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					FB8C431C1EC40292004A0E89 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB8C43031EC40292004A0E89;
+					};
+					FB8C43271EC40292004A0E89 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB8C43031EC40292004A0E89;
+					};
+				};
+			};
+			buildConfigurationList = FB8C42FF1EC40292004A0E89 /* Build configuration list for PBXProject "药品通" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB8C42FB1EC40292004A0E89;
+			productRefGroup = FB8C43051EC40292004A0E89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8C43031EC40292004A0E89 /* 药品通 */,
+				FB8C431C1EC40292004A0E89 /* 药品通Tests */,
+				FB8C43271EC40292004A0E89 /* 药品通UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB8C43021EC40292004A0E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8C43171EC40292004A0E89 /* LaunchScreen.storyboard in Resources */,
+				FB8C43141EC40292004A0E89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8C431B1EC40292004A0E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8C43261EC40292004A0E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB8C43001EC40292004A0E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8C433D1EC403DD004A0E89 /* AppDelegate.m in Sources */,
+				FB8C436B1EC414BF004A0E89 /* YPTNearbyViewController.m in Sources */,
+				FB8C43651EC4148A004A0E89 /* YPTHomeViewController.m in Sources */,
+				FB8C435F1EC4126B004A0E89 /* UIColor+Addition.m in Sources */,
+				FB8C436E1EC414CD004A0E89 /* YPTMineViewController.m in Sources */,
+				FB8C435C1EC409A9004A0E89 /* YPTNavigationController.m in Sources */,
+				FB8C43091EC40292004A0E89 /* main.m in Sources */,
+				FB8C43621EC41385004A0E89 /* YPTTabBarController.m in Sources */,
+				FB8C43681EC414A8004A0E89 /* YPTClassificationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8C43191EC40292004A0E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8C43221EC40292004A0E89 /* ___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8C43241EC40292004A0E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8C432D1EC40292004A0E89 /* ___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB8C431F1EC40292004A0E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8C43031EC40292004A0E89 /* 药品通 */;
+			targetProxy = FB8C431E1EC40292004A0E89 /* PBXContainerItemProxy */;
+		};
+		FB8C432A1EC40292004A0E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8C43031EC40292004A0E89 /* 药品通 */;
+			targetProxy = FB8C43291EC40292004A0E89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB8C43151EC40292004A0E89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8C43161EC40292004A0E89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB8C432F1EC40292004A0E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB8C43301EC40292004A0E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB8C43321EC40292004A0E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "药品通/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-5.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB8C43331EC40292004A0E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "药品通/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-5.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB8C43351EC40292004A0E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "药品通Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-5.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/药品通.app/药品通";
+			};
+			name = Debug;
+		};
+		FB8C43361EC40292004A0E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "药品通Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-5.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/药品通.app/药品通";
+			};
+			name = Release;
+		};
+		FB8C43381EC40292004A0E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "药品通UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-5.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "药品通";
+			};
+			name = Debug;
+		};
+		FB8C43391EC40292004A0E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "药品通UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-5.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "药品通";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB8C42FF1EC40292004A0E89 /* Build configuration list for PBXProject "药品通" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8C432F1EC40292004A0E89 /* Debug */,
+				FB8C43301EC40292004A0E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8C43311EC40292004A0E89 /* Build configuration list for PBXNativeTarget "药品通" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8C43321EC40292004A0E89 /* Debug */,
+				FB8C43331EC40292004A0E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8C43341EC40292004A0E89 /* Build configuration list for PBXNativeTarget "药品通Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8C43351EC40292004A0E89 /* Debug */,
+				FB8C43361EC40292004A0E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8C43371EC40292004A0E89 /* Build configuration list for PBXNativeTarget "药品通UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8C43381EC40292004A0E89 /* Debug */,
+				FB8C43391EC40292004A0E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB8C42FC1EC40292004A0E89 /* Project object */;
+}
